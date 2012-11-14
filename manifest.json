@@ -1,0 +1,17 @@
+{
+  "name": "KyleTime",
+  "version": "0",
+  "manifest_version": 2,
+  "description": "Fix the internet!",
+  "icons": {
+    "16": "ghost16.png",
+    "48": "ghost48.png",
+    "128": "ghost128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://newyorker.com/*"],
+      "js": ["kyle.js"]
+    }
+  ]
+}
